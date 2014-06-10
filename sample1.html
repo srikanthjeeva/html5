@@ -10,7 +10,9 @@
             nav {
                 background-color: #18252D;
                 display: inline-block;
-                width:100%
+                width:100%;
+                position: fixed;
+                top: 0px;
             }
             nav ul{
                 list-style: none;
@@ -41,7 +43,7 @@
             .sec{
                 background-color: #ccc;
                 display: inline-block;
-                
+                margin-top: -4px;
             }
             .acontent{
                 width:60%;
@@ -94,6 +96,9 @@
             .viewmore:hover{
                 color: #969696;
             }
+            .topbanner{
+                margin-top: 39px
+            }
 
         </style>
     </head>
@@ -107,7 +112,7 @@
             <li><a href="#">Lorem Ipsum5</a></li>
         </ul>
     </nav>
-    <section>
+    <section class="topbanner">
         <img src="banner1.jpg" class="banner"/>
     </section>
     <section class="sec">
